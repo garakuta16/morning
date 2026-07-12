@@ -1,0 +1,53 @@
+img {
+position:absolute;
+}
+.butterfly {
+ width: 80px;
+ transition: all 1s linear;
+}
+.mushi{
+width:30px;
+transition: all 1s linear;
+}
+#bt0{ 
+top:300px;
+left:200px;
+}
+#bt1{
+ top:200px;
+ left:300px;
+}
+#bt2{
+top:400px;
+left:700px;
+}
+#ms0{
+top:200px;
+left:370px;
+}
+#ms1{
+top:220px;
+left:400px;
+}
+#ms2{
+top:250px;
+left:450px;
+}
+#ms3{
+top:280px;
+left:600px;
+}
+#ms4{
+top:300px;
+left:750px;
+}#message{
+width:600px;
+position: absolute;
+z-index: 1;
+top:50px;
+left:100px;
+background-color:rgb(244,233,133,0.6);
+color:pink;
+font-size:30px;
+pointer-events:none;
+}
